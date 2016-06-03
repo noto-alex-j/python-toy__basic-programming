@@ -1,6 +1,7 @@
 def filter_numbers(arr):
-  # Remove the `return None` code below and add your own code.
-  return None
+  newarr = [big for big in arr if big >= 10]
+  arr = [num for num in arr if num not in newarr]
+  return arr
 
 # -----------------------------------------------------------------------------
 
