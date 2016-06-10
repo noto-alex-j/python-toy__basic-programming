@@ -1,6 +1,5 @@
 def filter_numbers(arr):
-  newarr = [big for big in arr if big >= 10]
-  arr = [num for num in arr if num not in newarr]
+  arr = [num for num in arr if num < 10]
   return arr
 
 # -----------------------------------------------------------------------------
